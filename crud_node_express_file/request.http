@@ -1,0 +1,28 @@
+POST http://localhost:4003/products
+content-type: application/json
+
+{
+    "name": "Barco de pesca",
+    "price": 50000
+}
+
+###
+GET http://localhost:4003/products
+
+
+###
+GET http://localhost:4003/products/84dc8cb3-4986-4080-ade3-9132f01b2b81
+
+
+###
+PUT http://localhost:4003/products/28ea7882-cc7d-4311-991c-8e35dd9233fd
+content-type: application/json
+
+{
+    "name": "Barco de corrida",
+    "price": 60000
+}
+
+
+###
+DELETE http://localhost:4003/products/48173457-e209-4184-b624-999197f9f0e0
