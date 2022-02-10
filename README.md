@@ -32,6 +32,7 @@ Users should be able to:
 ### Built with
 
 - NodeJS
+- Express
 
 
 ## Author
